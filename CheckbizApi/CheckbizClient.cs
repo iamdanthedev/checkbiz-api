@@ -18,13 +18,13 @@ namespace CheckbizApi
             };
         }
         
-        public async Task<LookupIdNoResult> LookupIdNoAsync(string id)
+        public async Task<object> LookupIdNoAsync(string id)
         {
             var request = new RestRequest("lookupidno", DataFormat.Json);
             request.AddHeader("Package", "LookupIdNo");
             request.AddQueryParameter("Id", id);
 
-            return await _client.GetAsync<LookupIdNoResult>(request);
+            return await _client.GetAsync<object>(request);
         }
         
     }
