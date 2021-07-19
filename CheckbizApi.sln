@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckbizApi", "CheckbizApi\CheckbizApi.csproj", "{32F7CBD4-49EC-4CCB-8D47-132899EB6E0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{72AFB58B-3116-4151-8FC0-2ECC95465942}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{32F7CBD4-49EC-4CCB-8D47-132899EB6E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32F7CBD4-49EC-4CCB-8D47-132899EB6E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32F7CBD4-49EC-4CCB-8D47-132899EB6E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72AFB58B-3116-4151-8FC0-2ECC95465942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72AFB58B-3116-4151-8FC0-2ECC95465942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72AFB58B-3116-4151-8FC0-2ECC95465942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72AFB58B-3116-4151-8FC0-2ECC95465942}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

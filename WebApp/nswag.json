@@ -1,0 +1,29 @@
+{
+  "runtime": "Net50",
+  "defaultVariables": null,
+  "documentGenerator": {
+    "webApiToOpenApi": {
+      "controllerNames": [],
+      "isAspNetCore": true,
+      "defaultUrlTemplate": "api/{controller}/{id?}",
+      "addMissingPathParameters": false,
+      "defaultPropertyNameHandling": "CamelCase",
+      "defaultReferenceTypeNullHandling": "Null",
+      "defaultEnumHandling": "String",
+      "flattenInheritanceHierarchy": false,
+      "generateKnownTypes": true,
+      "generateXmlObjects": false,
+      "generateAbstractProperties": false,
+      "ignoreObsoleteProperties": false,
+      "allowReferencesWithProperties": false,
+      "excludedTypeNames": [],
+      "infoTitle": "checkbiz-client-service",
+      "infoVersion": "1.0.0",
+      "output": "swagger.json",
+      "outputType": "OpenApi3",
+      "assemblyPaths": ["./bin/Debug/net5.0/WebApp.dll"],
+      "referencePaths": [],
+      "operationProcessorTypes": []
+    }
+  }
+}
